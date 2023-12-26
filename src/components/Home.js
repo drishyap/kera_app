@@ -1,24 +1,20 @@
 import React from "react";
+import Contact from "./contact/Contact";
 import Faq from "./faq/Faq";
 import Hero from "./hero/Hero";
-import Navbar from "./navbar/Navbar";
 import Pricing from "./pricing/Pricing";
 import Testimonials from "./testimonials/Testimonials";
-import Contact from "./contact/Contact";
-import Footer from "./footer/Footer";
 
 const Home = () => {
-    return (
-        <div>
-            <Navbar/>
-            <Hero/>
-            <Pricing/>
-            <Testimonials/>
-            <Faq/>
-            <Contact/>
-            <Footer/>
-        </div>
-    );
+   return (
+      <div>
+         <Hero />
+         <Pricing />
+         <Testimonials />
+         <Faq />
+         <Contact />
+      </div>
+   );
 };
 
 export default Home;
